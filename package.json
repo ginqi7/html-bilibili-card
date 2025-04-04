@@ -1,13 +1,28 @@
 {
-  "name": "hexo-bilibili-card",
-  "version": "0.6.3",
-  "description": "A hexo plugin insert a bilibili video card into your page or article, some of css code is copy from bilibili.",
+  "name": "html-bilibili-card",
+  "version": "0.0.1",
+  "description": "Replace the Bilibili link with an Bilibili card.",
   "main": "index.js",
-  "repository": "https://github.com/MaxChang3/hexo-bilibili-card.git",
-  "author": "MaxChang3",
+  "scripts": {},
+  "keywords": [
+    "bilibili",
+    "blog"
+  ],
+  "author": {
+    "name": "ginqi7",
+    "email": "ginqi7@gmail.com",
+    "url": "https://www.qiqijin.com"
+  },
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^1.0.0",
+    "hexo-fs": "^5.0.0",
     "lodash.get": "^4.4.2",
     "node-fetch-native": "^1.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ginqi7/html-bilibili-card"
+  },
+  "readmeFilename": "README.md"
 }
