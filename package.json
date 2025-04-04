@@ -1,13 +1,10 @@
 {
   "name": "html-bilibili-card",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Replace the Bilibili link with an Bilibili card.",
   "main": "index.js",
   "scripts": {},
-  "keywords": [
-    "bilibili",
-    "blog"
-  ],
+  "keywords": ["bilibili", "blog"],
   "author": {
     "name": "ginqi7",
     "email": "ginqi7@gmail.com",
